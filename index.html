@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <table>
+        <form action="" method="POST">
+            <tbody>
+                <tr>
+                    <Td>
+                        <label>Username: </label>
+                    </Td>
+                    <td>
+                        <input type="text" name="username" value="Enter Your Name Here..." autocomplete="off" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Family: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="Family" disabled placeholder="Enter Your Family Here...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email: </label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="Enter Your Email Here...">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password: </label>
+                    </td>
+                    <td>
+                        <input type="password" name="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> <label>Male</label>
+                        <input type="radio" name="gender" value="female"> <label>Female</label>
+                        <input type="radio" name="gender" value="others"> <label>Others</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Phone: </label>
+                    </td>
+                    <td>
+                        <select name="phone">
+                            <option value="a" selected>0912</option>
+                            <option value="b">0910</option>
+                            <option value="c">0939</option>
+                        </select>
+                        <input type="text" name="number" placeholder="1234567">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Interest</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="interest" value="music"> <label>Music</label>
+                        <br>
+                        <input type="checkbox" name="interest" value="sleep" disabled> <label>Book</label>
+                        <br>
+                        <input type="checkbox" name="interest" value="philosophy" checked> <label>philosophy</label>
+                        <br>
+                        <input type="checkbox" name="interest" value="poker"> <label>Poker</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>My Comment</label>
+                    </td>
+                    <td>
+                        <textarea name="comment" cols="25" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">send</button>
+                        <button type="reset">reset</button>
+                    </td>
+                </tr>
+            </tbody>         
+        </form>
+    </table>
+</body>
+</html>
